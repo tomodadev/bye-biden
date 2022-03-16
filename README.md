@@ -4,6 +4,7 @@
 
 > time left until Joe Biden goes home
 
+![](https://github.com/tonypark76/bye-biden/blob/main/GIF.gif)
 ## Author
 
 👤 **Tony Park**
