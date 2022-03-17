@@ -5,11 +5,12 @@ function tillFreedom() {
   const currentHour = new Date().getHours();
   const currentMin = new Date().getMinutes();
   const currentSec = new Date().getSeconds();
+  const SEC_TO_DAY = 1000 * 60 * 69 * 24;
 
   const now = new Date();
   const byeBiden = new Date("2025-01-20");
 
-  const day = String(Math.floor((byeBiden - now) / (1000 * 60 * 60 * 24)) - 1);
+  const day = String(Math.floor((byeBiden - now) / SEC_TO_DAY));
   const hour = shapeTime(24, currentHour);
   const minute = shapeTime(60, currentMin);
   const second = shapeTime(60, currentSec);
